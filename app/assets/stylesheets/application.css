@@ -26,9 +26,16 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
-.controller {
+
+.logo{
     width: 400px;
-    margin: 20px auto;
+    height: 50px;
+}
+
+.header-menu{
+    font-size: 12px;
+    font-weight: normal;
+    float: right;
 }
 
 ul > li {
