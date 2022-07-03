@@ -12,7 +12,7 @@ class PostsController < ApplicationController
         #render plain: "受信パラメター : #{params}"
         @post = Post.new(post_params)
         if @post.save
-            redirect_to post_path
+            redirect_to posts_path
         else
             render "new"
         end
