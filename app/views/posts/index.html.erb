@@ -4,7 +4,7 @@
 </div>
 <ul class="list-group mt-2">
     <% @posts.each do  |post| %>
-        <li class="list-group-item dfrex justify-content-between">
+        <li class="list-group-item d-flex justify-content-between">
             <div>
                 <%= link_to post.title, post_path(post) %>
                 <% if post.comments.any? %>
